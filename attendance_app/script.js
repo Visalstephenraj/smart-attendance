@@ -1,5 +1,5 @@
 // Sample student list
-const students = ["Arun", "Meena", "Siva", "Priya", "Karthik"];
+const students = ["Aravindh", "Aswin", "Bavana", "Gokul", "Hariharan", "Meenatchi", "Siva Bharathi", "Visal Stephen Raj"];
 
 // -------- Store Attendance Page --------
 if (document.getElementById("attendanceForm")) {
