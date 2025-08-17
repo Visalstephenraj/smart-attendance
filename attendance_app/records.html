@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>View Attendance</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h2>View Attendance</h2>
+
+  <label for="courseSelect">Course:</label>
+  <select id="courseSelect">
+    <option value="Math">Math</option>
+    <option value="Science">Science</option>
+    <option value="English">English</option>
+  </select>
+
+  <label for="dateSelect">Date:</label>
+  <input type="date" id="dateSelect">
+
+  <button onclick="loadAttendance()">Show Records</button>
+
+  <div id="recordsTable"></div>
+
+  <a href="index.html">⬅ Back</a>
+</body>
+</html>

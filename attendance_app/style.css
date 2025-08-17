@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.card {
+  display: block;
+  width: 200px;
+  padding: 30px;
+  text-decoration: none;
+  color: white;
+  background: #4CAF50;
+  border-radius: 12px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #388E3C;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
